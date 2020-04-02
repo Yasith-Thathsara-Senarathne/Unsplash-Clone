@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42754BDAD73C16E95B867F6 /* Pods_Unsplash_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01A01AB7AFF716015C60139 /* Pods_Unsplash_Clone.framework */; };
+		F43163382435B6830088840C /* ExploreRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43163372435B6830088840C /* ExploreRowView.swift */; };
+		F431633A2435E5AD0088840C /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43163392435E5AD0088840C /* ListHeaderView.swift */; };
+		F431633C2435F5CD0088840C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431633B2435F5CD0088840C /* Photo.swift */; };
+		F431633E2435F65C0088840C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431633D2435F65C0088840C /* URLs.swift */; };
+		F43163402435F6770088840C /* CoverPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431633F2435F6770088840C /* CoverPhoto.swift */; };
+		F43163422435F6A70088840C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43163412435F6A70088840C /* User.swift */; };
+		F43163442435F8270088840C /* ProfileURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43163432435F8270088840C /* ProfileURLs.swift */; };
+		F43163462435F8F60088840C /* NewRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43163452435F8F60088840C /* NewRowView.swift */; };
+		F433967224339851009055DF /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433967124339850009055DF /* Collection.swift */; };
+		F433967424339CE0009055DF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433967324339CE0009055DF /* HomeViewModel.swift */; };
+		F433967724339DEB009055DF /* CloudRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433967624339DEB009055DF /* CloudRequest.swift */; };
+		F45881DF24330FFF00D417BE /* TopImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45881DE24330FFF00D417BE /* TopImageContainer.swift */; };
+		F4E414A22431E66700097072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E414A12431E66700097072 /* AppDelegate.swift */; };
+		F4E414A42431E66700097072 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E414A32431E66700097072 /* SceneDelegate.swift */; };
+		F4E414A62431E66700097072 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E414A52431E66700097072 /* HomeView.swift */; };
+		F4E414A82431E66900097072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E414A72431E66900097072 /* Assets.xcassets */; };
+		F4E414AB2431E66900097072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E414AA2431E66900097072 /* Preview Assets.xcassets */; };
+		F4E414AE2431E66900097072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E414AC2431E66900097072 /* LaunchScreen.storyboard */; };
+		F4E414B92431E66A00097072 /* Unsplash_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E414B82431E66A00097072 /* Unsplash_CloneTests.swift */; };
+		F4E414C42431E66A00097072 /* Unsplash_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E414C32431E66A00097072 /* Unsplash_CloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4E414B52431E66A00097072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E414962431E66700097072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E4149D2431E66700097072;
+			remoteInfo = "Unsplash-Clone";
+		};
+		F4E414C02431E66A00097072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4E414962431E66700097072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4E4149D2431E66700097072;
+			remoteInfo = "Unsplash-Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C09DD7E609A9C50F80D878D /* Pods-Unsplash-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-Clone.release.xcconfig"; path = "Target Support Files/Pods-Unsplash-Clone/Pods-Unsplash-Clone.release.xcconfig"; sourceTree = "<group>"; };
+		3FAE8B42C265802EC7C88216 /* Pods-Unsplash-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unsplash-Clone.debug.xcconfig"; path = "Target Support Files/Pods-Unsplash-Clone/Pods-Unsplash-Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		A01A01AB7AFF716015C60139 /* Pods_Unsplash_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unsplash_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43163372435B6830088840C /* ExploreRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRowView.swift; sourceTree = "<group>"; };
+		F43163392435E5AD0088840C /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		F431633B2435F5CD0088840C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		F431633D2435F65C0088840C /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		F431633F2435F6770088840C /* CoverPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverPhoto.swift; sourceTree = "<group>"; };
+		F43163412435F6A70088840C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F43163432435F8270088840C /* ProfileURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileURLs.swift; sourceTree = "<group>"; };
+		F43163452435F8F60088840C /* NewRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRowView.swift; sourceTree = "<group>"; };
+		F433967124339850009055DF /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		F433967324339CE0009055DF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F433967624339DEB009055DF /* CloudRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudRequest.swift; sourceTree = "<group>"; };
+		F45881DE24330FFF00D417BE /* TopImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopImageContainer.swift; sourceTree = "<group>"; };
+		F4E4149E2431E66700097072 /* Unsplash-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unsplash-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E414A12431E66700097072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4E414A32431E66700097072 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4E414A52431E66700097072 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F4E414A72431E66900097072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4E414AA2431E66900097072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F4E414AD2431E66900097072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4E414AF2431E66900097072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E414B42431E66A00097072 /* Unsplash-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unsplash-CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E414B82431E66A00097072 /* Unsplash_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash_CloneTests.swift; sourceTree = "<group>"; };
+		F4E414BA2431E66A00097072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E414BF2431E66A00097072 /* Unsplash-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unsplash-CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E414C32431E66A00097072 /* Unsplash_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash_CloneUITests.swift; sourceTree = "<group>"; };
+		F4E414C52431E66A00097072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4E4149B2431E66700097072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42754BDAD73C16E95B867F6 /* Pods_Unsplash_Clone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E414B12431E66A00097072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E414BC2431E66A00097072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B1B1EC30CE3AD5290115C5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FAE8B42C265802EC7C88216 /* Pods-Unsplash-Clone.debug.xcconfig */,
+				1C09DD7E609A9C50F80D878D /* Pods-Unsplash-Clone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B396E7079A727CD5877C0C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A01A01AB7AFF716015C60139 /* Pods_Unsplash_Clone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43163362435B66B0088840C /* RowView */ = {
+			isa = PBXGroup;
+			children = (
+				F43163372435B6830088840C /* ExploreRowView.swift */,
+				F43163452435F8F60088840C /* NewRowView.swift */,
+			);
+			path = RowView;
+			sourceTree = "<group>";
+		};
+		F433967524339DB2009055DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F433967624339DEB009055DF /* CloudRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F4E414952431E66700097072 = {
+			isa = PBXGroup;
+			children = (
+				F4E414A02431E66700097072 /* Unsplash-Clone */,
+				F4E414B72431E66A00097072 /* Unsplash-CloneTests */,
+				F4E414C22431E66A00097072 /* Unsplash-CloneUITests */,
+				F4E4149F2431E66700097072 /* Products */,
+				4B1B1EC30CE3AD5290115C5C /* Pods */,
+				B396E7079A727CD5877C0C37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4E4149F2431E66700097072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4E4149E2431E66700097072 /* Unsplash-Clone.app */,
+				F4E414B42431E66A00097072 /* Unsplash-CloneTests.xctest */,
+				F4E414BF2431E66A00097072 /* Unsplash-CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4E414A02431E66700097072 /* Unsplash-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				F4E414D32431E99D00097072 /* Model */,
+				F4E414D42431E9A300097072 /* ViewModel */,
+				F4E414D22431E7CB00097072 /* View */,
+				F433967524339DB2009055DF /* Network */,
+				F4E414D12431E7B600097072 /* System_Support */,
+				F4E414A92431E66900097072 /* Preview Content */,
+			);
+			path = "Unsplash-Clone";
+			sourceTree = "<group>";
+		};
+		F4E414A92431E66900097072 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F4E414AA2431E66900097072 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4E414B72431E66A00097072 /* Unsplash-CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E414B82431E66A00097072 /* Unsplash_CloneTests.swift */,
+				F4E414BA2431E66A00097072 /* Info.plist */,
+			);
+			path = "Unsplash-CloneTests";
+			sourceTree = "<group>";
+		};
+		F4E414C22431E66A00097072 /* Unsplash-CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E414C32431E66A00097072 /* Unsplash_CloneUITests.swift */,
+				F4E414C52431E66A00097072 /* Info.plist */,
+			);
+			path = "Unsplash-CloneUITests";
+			sourceTree = "<group>";
+		};
+		F4E414D12431E7B600097072 /* System_Support */ = {
+			isa = PBXGroup;
+			children = (
+				F4E414A12431E66700097072 /* AppDelegate.swift */,
+				F4E414A32431E66700097072 /* SceneDelegate.swift */,
+				F4E414A72431E66900097072 /* Assets.xcassets */,
+				F4E414AF2431E66900097072 /* Info.plist */,
+			);
+			path = System_Support;
+			sourceTree = "<group>";
+		};
+		F4E414D22431E7CB00097072 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F43163362435B66B0088840C /* RowView */,
+				F4E414D52431EE1C00097072 /* CustomView */,
+				F4E414AC2431E66900097072 /* LaunchScreen.storyboard */,
+				F4E414A52431E66700097072 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4E414D32431E99D00097072 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F433967124339850009055DF /* Collection.swift */,
+				F431633B2435F5CD0088840C /* Photo.swift */,
+				F431633D2435F65C0088840C /* URLs.swift */,
+				F431633F2435F6770088840C /* CoverPhoto.swift */,
+				F43163412435F6A70088840C /* User.swift */,
+				F43163432435F8270088840C /* ProfileURLs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4E414D42431E9A300097072 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F433967324339CE0009055DF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F4E414D52431EE1C00097072 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F45881DE24330FFF00D417BE /* TopImageContainer.swift */,
+				F43163392435E5AD0088840C /* ListHeaderView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4E4149D2431E66700097072 /* Unsplash-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E414C82431E66A00097072 /* Build configuration list for PBXNativeTarget "Unsplash-Clone" */;
+			buildPhases = (
+				9BA7D4FFAD10B582D6B7A3B7 /* [CP] Check Pods Manifest.lock */,
+				F4E4149A2431E66700097072 /* Sources */,
+				F4E4149B2431E66700097072 /* Frameworks */,
+				F4E4149C2431E66700097072 /* Resources */,
+				9B91CE247D0D6E4EB1194ED9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unsplash-Clone";
+			productName = "Unsplash-Clone";
+			productReference = F4E4149E2431E66700097072 /* Unsplash-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E414B32431E66A00097072 /* Unsplash-CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E414CB2431E66A00097072 /* Build configuration list for PBXNativeTarget "Unsplash-CloneTests" */;
+			buildPhases = (
+				F4E414B02431E66A00097072 /* Sources */,
+				F4E414B12431E66A00097072 /* Frameworks */,
+				F4E414B22431E66A00097072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E414B62431E66A00097072 /* PBXTargetDependency */,
+			);
+			name = "Unsplash-CloneTests";
+			productName = "Unsplash-CloneTests";
+			productReference = F4E414B42431E66A00097072 /* Unsplash-CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4E414BE2431E66A00097072 /* Unsplash-CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4E414CE2431E66A00097072 /* Build configuration list for PBXNativeTarget "Unsplash-CloneUITests" */;
+			buildPhases = (
+				F4E414BB2431E66A00097072 /* Sources */,
+				F4E414BC2431E66A00097072 /* Frameworks */,
+				F4E414BD2431E66A00097072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4E414C12431E66A00097072 /* PBXTargetDependency */,
+			);
+			name = "Unsplash-CloneUITests";
+			productName = "Unsplash-CloneUITests";
+			productReference = F4E414BF2431E66A00097072 /* Unsplash-CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4E414962431E66700097072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Yasith Thathsara Senarathne";
+				TargetAttributes = {
+					F4E4149D2431E66700097072 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F4E414B32431E66A00097072 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F4E4149D2431E66700097072;
+					};
+					F4E414BE2431E66A00097072 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = F4E4149D2431E66700097072;
+					};
+				};
+			};
+			buildConfigurationList = F4E414992431E66700097072 /* Build configuration list for PBXProject "Unsplash-Clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4E414952431E66700097072;
+			productRefGroup = F4E4149F2431E66700097072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4E4149D2431E66700097072 /* Unsplash-Clone */,
+				F4E414B32431E66A00097072 /* Unsplash-CloneTests */,
+				F4E414BE2431E66A00097072 /* Unsplash-CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4E4149C2431E66700097072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E414AE2431E66900097072 /* LaunchScreen.storyboard in Resources */,
+				F4E414AB2431E66900097072 /* Preview Assets.xcassets in Resources */,
+				F4E414A82431E66900097072 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E414B22431E66A00097072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E414BD2431E66A00097072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B91CE247D0D6E4EB1194ED9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unsplash-Clone/Pods-Unsplash-Clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Unsplash-Clone/Pods-Unsplash-Clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Unsplash-Clone/Pods-Unsplash-Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA7D4FFAD10B582D6B7A3B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unsplash-Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4E4149A2431E66700097072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43163422435F6A70088840C /* User.swift in Sources */,
+				F433967424339CE0009055DF /* HomeViewModel.swift in Sources */,
+				F43163382435B6830088840C /* ExploreRowView.swift in Sources */,
+				F431633A2435E5AD0088840C /* ListHeaderView.swift in Sources */,
+				F43163462435F8F60088840C /* NewRowView.swift in Sources */,
+				F431633E2435F65C0088840C /* URLs.swift in Sources */,
+				F43163402435F6770088840C /* CoverPhoto.swift in Sources */,
+				F4E414A22431E66700097072 /* AppDelegate.swift in Sources */,
+				F431633C2435F5CD0088840C /* Photo.swift in Sources */,
+				F433967224339851009055DF /* Collection.swift in Sources */,
+				F43163442435F8270088840C /* ProfileURLs.swift in Sources */,
+				F433967724339DEB009055DF /* CloudRequest.swift in Sources */,
+				F45881DF24330FFF00D417BE /* TopImageContainer.swift in Sources */,
+				F4E414A42431E66700097072 /* SceneDelegate.swift in Sources */,
+				F4E414A62431E66700097072 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E414B02431E66A00097072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E414B92431E66A00097072 /* Unsplash_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E414BB2431E66A00097072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4E414C42431E66A00097072 /* Unsplash_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4E414B62431E66A00097072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E4149D2431E66700097072 /* Unsplash-Clone */;
+			targetProxy = F4E414B52431E66A00097072 /* PBXContainerItemProxy */;
+		};
+		F4E414C12431E66A00097072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4E4149D2431E66700097072 /* Unsplash-Clone */;
+			targetProxy = F4E414C02431E66A00097072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4E414AC2431E66900097072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4E414AD2431E66900097072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4E414C62431E66A00097072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4E414C72431E66A00097072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4E414C92431E66A00097072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAE8B42C265802EC7C88216 /* Pods-Unsplash-Clone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Unsplash-Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = SGWDF4729Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Unsplash-Clone/System_Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yts.Unsplash-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4E414CA2431E66A00097072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C09DD7E609A9C50F80D878D /* Pods-Unsplash-Clone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Unsplash-Clone/Preview Content\"";
+				DEVELOPMENT_TEAM = SGWDF4729Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Unsplash-Clone/System_Support/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yts.Unsplash-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4E414CC2431E66A00097072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U6C6VD933;
+				INFOPLIST_FILE = "Unsplash-CloneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yts.Unsplash-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unsplash-Clone.app/Unsplash-Clone";
+			};
+			name = Debug;
+		};
+		F4E414CD2431E66A00097072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U6C6VD933;
+				INFOPLIST_FILE = "Unsplash-CloneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yts.Unsplash-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unsplash-Clone.app/Unsplash-Clone";
+			};
+			name = Release;
+		};
+		F4E414CF2431E66A00097072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U6C6VD933;
+				INFOPLIST_FILE = "Unsplash-CloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yts.Unsplash-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unsplash-Clone";
+			};
+			name = Debug;
+		};
+		F4E414D02431E66A00097072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U6C6VD933;
+				INFOPLIST_FILE = "Unsplash-CloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yts.Unsplash-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Unsplash-Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4E414992431E66700097072 /* Build configuration list for PBXProject "Unsplash-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E414C62431E66A00097072 /* Debug */,
+				F4E414C72431E66A00097072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E414C82431E66A00097072 /* Build configuration list for PBXNativeTarget "Unsplash-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E414C92431E66A00097072 /* Debug */,
+				F4E414CA2431E66A00097072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E414CB2431E66A00097072 /* Build configuration list for PBXNativeTarget "Unsplash-CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E414CC2431E66A00097072 /* Debug */,
+				F4E414CD2431E66A00097072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4E414CE2431E66A00097072 /* Build configuration list for PBXNativeTarget "Unsplash-CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E414CF2431E66A00097072 /* Debug */,
+				F4E414D02431E66A00097072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4E414962431E66700097072 /* Project object */;
+}

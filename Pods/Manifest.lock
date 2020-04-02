@@ -1,0 +1,45 @@
+PODS:
+  - MNkCloudRequest (1.1):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - MNkSupportUtilities (1.2.0):
+    - SDWebImage
+  - RxCocoa (5.1.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.0)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SDWebImageSwiftUI (1.2.0):
+    - SDWebImage (~> 5.3)
+
+DEPENDENCIES:
+  - MNkCloudRequest
+  - MNkSupportUtilities
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - MNkCloudRequest
+    - MNkSupportUtilities
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  MNkCloudRequest: c8cee6a9c17a721d0e275fb5fcf1ada9300aedaf
+  MNkSupportUtilities: 26566468074ea16e9392842b4bc83c65f26f78a1
+  RxCocoa: 13d2a4d7546a34b8ececae8c281e4ea1dbb94f2b
+  RxRelay: a168bd6caf712d00c676ac344e9295afc93b418e
+  RxSwift: ad5874f24bb0dbffd1e9bb8443604e3578796c7a
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SDWebImageSwiftUI: 3530ef646416babe79d09ba807264ade86e042d7
+
+PODFILE CHECKSUM: 5fdd3844a9993fce536cb2b9c0e213ac3d97fe56
+
+COCOAPODS: 1.8.4

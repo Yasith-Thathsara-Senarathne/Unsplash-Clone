@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-Unsplash-Clone/Pods-Unsplash-Clone-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MNkCloudRequest/MNkCloudRequest.framework
+${BUILT_PRODUCTS_DIR}/MNkSupportUtilities/MNkSupportUtilities.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SDWebImageSwiftUI/SDWebImageSwiftUI.framework
